@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+	text-align: center;
+}
+
+header {
+    background-color: #0e0a41;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+#details,
+#gallery,
+#rsvp {
+    padding: 3rem;
+    background-color: #f4f4f4;
+}
+
+#details h2,
+#gallery h2,
+#rsvp h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.image-container {
+    width: 33.333%;
+    padding: 0.5rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        width: 100%;
+    }
+}
+
+.button {
+    display: inline-block;
+    background-color: #0e0a41;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: #333;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+}
