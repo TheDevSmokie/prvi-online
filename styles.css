@@ -12,32 +12,77 @@ body {
 }
 
 header {
-    background-color: #0e0a41;
-    height: 50vh;
+    background-color: #281831;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #FEE05B;
     text-align: center;
 }
+
+#navbar{
+    background-color: #281831;
+}
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+
+
+
 
 header h1 {
     font-size: 4rem;
 }
 
+
 #details,
-#gallery,
+#about{
+    padding: 3rem;
+    background-color: #18003f;
+    color: #f4f4f4;
+    text-align: left;
+}
+
 #rsvp {
     padding: 3rem;
-    background-color: #f4f4f4;
+    background-color: #18003f;
+    color: #f4f4f4;
 }
 
 #details h2,
-#gallery h2,
-#rsvp h2 {
+#rsvp h2,
+#about h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
+
+.karte{
+    color: red;
+}
+
 
 .image-container {
     width: 33.333%;
@@ -57,8 +102,8 @@ header h1 {
 
 .button {
     display: inline-block;
-    background-color: #0e0a41;
-    color: white;
+    background-color: #FEE05B;
+    color: #333;
     padding: 1rem 2rem;
     text-decoration: none;
     margin-top: 2rem;
